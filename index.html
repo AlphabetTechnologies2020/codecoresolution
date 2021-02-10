@@ -133,8 +133,8 @@
                     <h2 class="to-animate">About Us</h2>
                 </div>
 
-                <div class="col-md-8 to-animate">
-                    <img src="images/laptop.jpg" class="img-responsive img-rounded" alt="Free HTML5 Template">
+                <div class="col-md-8 to-animate" id="about-img">
+                    <img src="images/laptop.jpg"  class="img-responsive img-rounded" alt="Free HTML5 Template">
                 </div>
                 <div class="col-md-4 to-animate">
                     <h2>Who we are</h2>
@@ -150,7 +150,7 @@
                     </h2>
 
                     <p style="margin-top: 20px;">
-                        Mail us : <b>info@codecoresolutions.com</b>
+                        Mail us : <b>Hello@codecore.solutions</b>
                     </p>
                     <p>
                         Call us : +92-3123456789
@@ -211,60 +211,97 @@
                     </div>
                 </div>
             </div>
+
+            <section id="projects">
+                <div class="projects container">
+                    <div class="all-projects">
+                        <div class="project-item">
+                            <div class="project-info">
+                                <h1>Artificial Inteligence</h1>
+                                <!-- <h2>Coding is Love</h2> -->
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate
+                                    voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius
+                                    odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit
+                                    architecto voluptatum odit et!</p>
+                            </div>
+                            <div class="project-img">
+                                <img src="images/ai.jpg" alt="img">
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <div class="project-info">
+                                <h1>Machine Learning</h1>
+                                <!-- <h2>Coding is Love</h2> -->
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate
+                                    voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius
+                                    odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit
+                                    architecto voluptatum odit et!</p>
+                            </div>
+                            <div class="project-img">
+                                <img src="images/ml.jpg" alt="img">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
         </div>
     </div>
 
-     <!-- Contact Form -->
-     <div  id="fh5co-contact-us" data-section="contact">
+    <!-- Contact Form -->
+    <div id="fh5co-contact-us" data-section="contact">
         <!-- <div class="container"> -->
-            <div class="row row-bottom-padded-sm">
-                <div class="col-md-12 section-heading text-center">
-                    <h2 class="to-animate">Contact Us</h2>
-                    <div class="row">
-
-                    </div>
+        <div class="row row-bottom-padded-sm">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="to-animate">Contact Us</h2>
+                <div class="row">
 
                 </div>
+
             </div>
-            <div class="contact-form">
-                <!-- <h1 class="contact-form-left">
+        </div>
+        <div class="contact-form">
+            <!-- <h1 class="contact-form-left">
                     We would like to hear from you for improvement as a continuous process
                 </h1> -->
-        
-                <div class="contact-form-left">
-                    <img style="max-width: 100%;" src="images/contactUs.png">
-                </div>
-        
-                <div class="contact-form-right">
-                    <form method="post" action="contact.php">
-                        <div class="col-md-12">
-                            <h1 class="title">Contact Us</h1>
-        
-                            <!-- Email Confirmation Success -->
-                            <!-- <p class="confirmation send-success"><span class="ti-check-box"></span>Email sent
-                                successfully.</p> -->
-        
-                            <!-- Email Confirmation Error -->
-                            <!-- <p class="confirmation send-error"><span class="ti-alert"></span>There is a problem
-                                sending email ...</p> -->
-        
-                            <input class="form-control" type="text" name="fname" placeholder="First Name" required="required">
-                            <input class="form-control" type="text" name="lname" placeholder="Last Name">
-                            <input class="form-control" type="email" name="email" placeholder="Email" required="required">
-                            <textarea class="form-control" name="message" rows="4" placeholder="Message"
-                                required="required"></textarea>
-                            <button type="submit" name="btn-send" class="submit-btn" style="color: white;"
-                                data-wow-duration="1s" data-wow-delay=".5s">Submit</button>
-                        </div>
-                    </form>
-        
-                </div>
-        
+
+            <div class="contact-form-left">
+                <img style="max-width: 100%;" src="images/contactUs.png">
             </div>
+
+            <div class="contact-form-right">
+                <form method="post" action="contact.php">
+                    <div class="col-md-12">
+                        <h1 class="title">Contact Us</h1>
+
+                        <!-- Email Confirmation Success -->
+                        <!-- <p class="confirmation send-success"><span class="ti-check-box"></span>Email sent
+                                successfully.</p> -->
+
+                        <!-- Email Confirmation Error -->
+                        <!-- <p class="confirmation send-error"><span class="ti-alert"></span>There is a problem
+                                sending email ...</p> -->
+
+                        <input class="form-control" type="text" name="fname" placeholder="First Name"
+                            required="required">
+                        <input class="form-control" type="text" name="lname" placeholder="Last Name">
+                        <input class="form-control" type="email" name="email" placeholder="Email" required="required">
+                        <textarea class="form-control" name="message" rows="4" placeholder="Message"
+                            required="required"></textarea>
+                        <button type="submit" name="btn-send" class="submit-btn" style="color: white;"
+                            data-wow-duration="1s" data-wow-delay=".5s">Submit</button>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
         <!-- </div> -->
-        
-     </div>
-     
+
+    </div>
+
 
 
 
@@ -273,7 +310,8 @@
             <div class="row row-bottom-padded-sm">
                 <div class="col-md-12">
                     <p class="copyright text-center" style="color: white;font-size: 20px;"> <span
-                            style="color: #ff6600">Copyright &copy; CodeCoreSolutions 2021.</span>All Rights Reserved. <br>
+                            style="color: #ff6600">Copyright &copy; CodeCoreSolutions 2021.</span>All Rights Reserved.
+                        <br>
                 </div>
             </div>
 
