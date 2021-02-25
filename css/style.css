@@ -169,13 +169,13 @@
   #fh5co-our-services,
   #fh5co-about-us,
   #fh5co-contact-us {
-    padding: 3em 0;
+    padding: 2em -2em;
   }
   @media screen and (max-width: 480px) {
     #fh5co-our-services,
     #fh5co-about-us,
     #fh5co-contact-us{
-      padding: 3em 0;
+      padding: 2em 0;
     }
   }
 
